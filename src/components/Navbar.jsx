@@ -9,24 +9,29 @@ import { IoCloseOutline } from "react-icons/io5";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <section className=" text-center flex justify-center items-center ">
+    <section className=" text-center flex justify-center items-center scroll-smooth">
       <nav className="sm:w-[90%] w-full flex py-2 justify-between items-center">
         <img src={empowermend} alt="" className="w-[80px]" />
         <ul className="list-none sm:flex gap-4 hidden justify-center ms-5 items-center flex-1">
           <li
             className={`font-poppins font-normal  active:font-semibold  cursor-pointer text-[18px] `}
           >
-            <Link to="/">Home</Link>
+            <Link to="/">HOME</Link>
           </li>
           <li
             className={`font-poppins  font-normal active:font-semibold cursor-pointer text-[18px] `}
           >
-            <Link to="/about">About</Link>
+            <Link to="/ayurveda">AYURVEDA</Link>
           </li>
           <li
             className={`font-poppins  font-normal active:font-semibold cursor-pointer text-[18px] `}
           >
-            <Link to="/community">Community</Link>
+            <Link to="/community">COMMUNITY</Link>
+          </li>
+          <li
+            className={`font-poppins  font-normal active:font-semibold cursor-pointer text-[18px] `}
+          >
+            <Link to="/experts">EXPERTS</Link>
           </li>
           <li
             className={`font-poppins  font-normal active:font-semibold  ms-auto cursor-pointer text-[18px] `}
