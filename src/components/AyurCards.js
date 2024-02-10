@@ -18,27 +18,27 @@ function AyurCards() {
         <div className="flex-1 flex flex-col  sm:flex-row flex-wrap mb-4 -mx-2">
           <div className="w-full sm:w-1/2 mb-4 px-2">
             <div className="h-full py-4 px-6 border border-[#6964fa] border-t-0 border-l-0 rounded-br-xl">
-              <h3 className="text-xl font-bold text-[#6964fa] text-md mb-6">Pranayama and Meditation</h3>
+              <h3 className="text-xl font-bold text-[#6964fa] mb-6">Pranayama and Meditation</h3>
               <p className="text-sm">Controlled breathing exercises and meditation can help manage stress, anxiety, and trauma, providing a sense of calm and emotional balance.</p>
             </div>
           </div>
           <div className="w-full sm:w-1/2 mb-4 px-2">
             <div className="h-full py-4 px-6 border border-[#6964fa] border-t-0 border-l-0 rounded-br-xl">
-              <h3 className="text-xl font-bold text-[#6964fa] text-md mb-6">Aromatherapy</h3>
+              <h3 className="text-xl font-bold text-[#6964fa] mb-6">Aromatherapy</h3>
               <p className="text-sm">The use of essential oils, such as lavender or chamomile, can create a soothing environment, promoting relaxation and emotional well-being..</p>
             </div>
           </div>
 
           <div className="w-full sm:w-1/2 mb-4 px-2">
             <div className="h-full py-4 px-6 border border-[#6964fa] border-t-0 border-l-0 rounded-br-xl">
-              <h3 className="text-xl font-bold text-[#6964fa] text-md mb-6">Herbal Remedies</h3>
+              <h3 className="text-xl font-bold text-[#6964fa] mb-6">Herbal Remedies</h3>
               <p className="text-sm">Ayurvedic herbs like Ashwagandha and Tulsi are known for their adaptogenic properties, which can help reduce stress, support mental clarity, and emotional resilience.</p>
             </div>
           </div>
 
           <div className="w-full sm:w-1/2 mb-4 px-2">
             <div className="h-full py-4 px-6 border border-[#6964fa] border-t-0 border-l-0 rounded-br-xl">
-              <h3 className="text-xl text-[#6964fa] font-bold text-md mb-6">Yoga and Mindfulness Practices</h3>
+              <h3 className="text-xl text-[#6964fa] font-bold mb-6">Yoga and Mindfulness Practices</h3>
               <p className="text-sm"> Engaging in yoga asanas, mindfulness meditation, and yoga nidra can help release emotional tension, improve mental focus, and restore inner equilibrium.</p>
             </div>
           </div>

@@ -3,6 +3,7 @@ import Button from './Button'
 import Hero from '../svgs/5.svg'
 import AyurCards from './AyurCards'
 import Oneself from './Oneself'
+import ScrollCarousell from './ScrollCarousel'
 
 const Ayurveda = () => {
   return (
@@ -39,6 +40,16 @@ const Ayurveda = () => {
       <AyurCards/>
       <div className="spacer p-6"></div>
       <Oneself/>
+      <div className="spacer p-6"></div>
+      <div className="w-full text-center shadow-md  rounded-[20px] py-6">
+      <div >
+          <h2 className="text-black font-bold text-4xl text-center pt-4 pb-4">Creating a Safe Space:<span className="text-[#6964fa]"> Communicating with Your Child</span></h2>
+          <div className="h-[1px] w-[70%] mx-auto bg-[#6964fa]"></div>
+          <p className="mx-auto text-balance lg:w-[70%] text-center lg:mt-[40px] md:mt-[20] sm:mt-[10px] mb-5 ">Dear Parents, <br />
+          As we navigate the complexities of parenting, it's crucial to establish an open and supportive environment for our children. By actively listening and engaging in meaningful conversations, we can help protect them from potential harm and provide the necessary support if they encounter distressing situations.</p>
+        </div>
+        <ScrollCarousell/>
+      </div>
       <div className="spacer p-6"></div>
     </div>
   )

@@ -125,7 +125,7 @@ const Home = () => {
           <p className="mx-auto text-balance lg:w-[70%] text-center lg:mt-[40px] md:mt-[20] sm:mt-[10px] mb-5 ">Dear Parents, <br />
           As we navigate the complexities of parenting, it's crucial to establish an open and supportive environment for our children. By actively listening and engaging in meaningful conversations, we can help protect them from potential harm and provide the necessary support if they encounter distressing situations.</p>
         </div>
-      <ScrollCarousell/>
+        <ScrollCarousell/>
       </div>
       <div className="spacer p-6"></div>
       <div className=" w-full text-center p-[16px] bg-gradient-to-t from-indigo-300 from-20% via-[#ffe5f9] via-50% to-white to-90% rounded-[20px]  lg:h-[100vh] py-6" >
